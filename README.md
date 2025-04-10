@@ -119,27 +119,6 @@ Note: Root/sudo privileges are required due to raw socket usage.
 
 ---
 
-## Limitations
-
-- **Security Considerations:**
-  - Requires root privileges to run
-  - No error handling for malformed packets
-- **Network Constraints:**
-  - Only works on loopback interface (127.0.0.1) as configured
-  - No timeout handling for packet loss scenarios
-
----
-
-## Learning Value
-
-This project demonstrates:
-- Low-level TCP protocol operation
-- Manual packet construction and parsing
-- The three-way handshake mechanism fundamental to TCP connections
-- Socket programming with raw sockets in C++
-
----
-
 ## Contribution
 
 👤 **Palagiri Tousif Ahamad (220744):** 100% Contribution
